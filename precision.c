@@ -69,6 +69,11 @@ power_mod(Integer other) {
         return NULL;
 }
 
+Integer
+divmod(Integer other) {
+        return NULL;
+}
+
 int
 main(void) {
         printf("hello\n");
