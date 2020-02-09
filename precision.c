@@ -7,6 +7,10 @@
 
 #include "precision.h"
 
+/*
+ * Creation and destruction functions.
+ */
+
 Integer
 create_integer(int value) {
         Integer new_int = malloc(sizeof(Integer));
@@ -24,6 +28,45 @@ destroy_integer(Integer integer) {
                 current_node = current_node->rest;
                 free(prev_node);
         }
+}
+
+/*
+ * Basic arithmetic functions.
+ */
+
+Integer
+add(Integer other) {
+        return NULL;
+}
+
+Integer
+subtract(Integer other) {
+        return NULL;
+}
+
+Integer
+multiply(Integer other) {
+        return NULL;
+}
+
+Integer
+divide(Integer other) {
+        return NULL;
+}
+
+Integer
+pow(Integer other) {
+        return NULL;
+}
+
+Integer
+mod(Integer other) {
+        return NULL;
+}
+
+Integer
+power_mod(Integer other) {
+        return NULL;
 }
 
 int

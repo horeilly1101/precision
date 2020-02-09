@@ -12,3 +12,9 @@ struct PreciseInteger {
     struct PreciseInteger *rest;
 };
 typedef struct PreciseInteger *Integer;
+
+struct DivisorRemainderTuple {
+    Integer divisor;
+    Integer remainder;
+};
+typedef struct DivisorRemainderTuple *DivisorRemainder;
